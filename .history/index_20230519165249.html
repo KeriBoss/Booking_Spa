@@ -12,7 +12,6 @@
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css?family=Lora:400,700&display=swap" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Cabin:400,500,600,700&display=swap" rel="stylesheet" />
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
     <!-- Css Styles -->
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
@@ -141,7 +140,7 @@
                                 <ul>
                                     <li class="active"><a href="./index.html">Home</a></li>
                                     <li><a href="./rooms.html">Services</a></li>
-                                    <li><a href="./rooms.html">Booking</a></li>
+                                    <li><a href="./booking.html">Booking</a></li>
                                     <li><a href="./about-us.html">About Us</a></li>
                                     <li>
                                         <a href="./pages.html">Pages</a>
@@ -167,184 +166,104 @@
     </header>
     <!-- Header End -->
 
-    <!-- Booking start-->
-    <section class="booking-nail mt-5">
+    <!-- Hero Section Begin -->
+    <section class="hero-section mt-5">
         <div class="container">
-            <form action="">
-                <div class="row">
-
-                    <div class="col-lg-12">
-                        <div class="section-title">
-                            <span>Booking here</span>
-                            <h2>Nails By The Falls</h2>
-                        </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="hero-text">
+                        <h1>Booking Nail</h1>
+                        <p>
+                            Here are the best hotel booking sites, including recommendations
+                            for international travel and for finding low-priced hotel rooms.
+                        </p>
+                        <a href="#" class="primary-btn">Discover Now</a>
                     </div>
-                    <div class="col-lg-12 text-center mb-3">
-                        <h5>Choose Company name: </h5>
-                    </div>
-                    <div class="col-lg-12">
-                        <div class="d-flex justify-content-center align-items-center flex-wrap">
-                            <select id="guest">
-                                <option value=""> The Zen Company </option>
-                                <option value="">Relaxxa </option>
-                                <option value=""> Bliss </option>
-                                <option value=""> Body n Mind Spa </option>
-                                <option value=""> Sparadise </option>
-                                <option value=""> Relexology Spa </option>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="col-lg-12">
-                        <div class="card-booking">
-                            <ul class="nav nav-tabs">
-                                <li class="active"><a class="active" data-toggle="tab" href="#home">Services</a></li>
-                                <li><a data-toggle="tab" href="#menu1">Staffs</a></li>
-                            </ul>
-
-                            <div class="tab-content p-4">
-                                <div id="home" class="tab-pane fade show active">
-                                    <div class="form-outline mb-3">
-                                        <input type="search" id="form1" class="form-control" placeholder="Type query"
-                                            aria-label="Search" />
-                                    </div>
-                                    <div class="collapse show filter-service">
-                                        <div class="collapse-item">
-                                            <a data-toggle="collapse" href="#multiCollapseExample1" role="button"
-                                                aria-expanded="false"
-                                                aria-controls="multiCollapseExample1">Manicure/Pedicure</a>
-                                            <span class="float-right"><i class='bx bx-chevron-down'></i></span>
-                                            <div class="row">
-                                                <div class="col">
-                                                    <div class="collapse multi-collapse" id="multiCollapseExample1">
-                                                        <div class="row">
-                                                            <div class="col-12">
-                                                                <div class="item-service ">
-                                                                    <div class="desc-left">
-                                                                        <p>Express Manicure</p>
-                                                                        <p><i class='bx bx-time-five'></i> 01 hours 30
-                                                                            minutes <span class="space">.</span> <span
-                                                                                class="price">$20</span></p>
-                                                                    </div>
-                                                                    <div class="desc-right">
-                                                                        <input type="radio" name="services">
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="collapse-item">
-                                            <a data-toggle="collapse" href="#service2" role="button"
-                                                aria-expanded="false" aria-controls="service2">Manicure/Pedicure</a>
-                                            <span class="float-right"><i class='bx bx-chevron-down'></i></span>
-                                            <div class="row">
-                                                <div class="col">
-                                                    <div class="collapse multi-collapse" id="service2">
-                                                        <div class="row">
-                                                            <div class="col-12">
-                                                                <div class="item-service ">
-                                                                    <div class="desc-left">
-                                                                        <p>Express Manicure</p>
-                                                                        <p><i class='bx bx-time-five'></i> 01 hours 30
-                                                                            minutes <span class="space">.</span> <span
-                                                                                class="price">$20</span></p>
-                                                                    </div>
-                                                                    <div class="desc-right">
-                                                                        <input type="radio" name="services">
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="collapse-item">
-                                            <a data-toggle="collapse" href="#service3" role="button"
-                                                aria-expanded="false" aria-controls="service3">Manicure/Pedicure</a>
-                                            <span class="float-right"><i class='bx bx-chevron-down'></i></span>
-                                            <div class="row">
-                                                <div class="col">
-                                                    <div class="collapse multi-collapse" id="service3">
-                                                        <div class="row">
-                                                            <div class="col-12">
-                                                                <div class="item-service ">
-                                                                    <div class="desc-left">
-                                                                        <p>Express Manicure</p>
-                                                                        <p><i class='bx bx-time-five'></i> 01 hours 30
-                                                                            minutes <span class="space">.</span> <span
-                                                                                class="price">$20</span></p>
-                                                                    </div>
-                                                                    <div class="desc-right">
-                                                                        <input type="radio" name="services">
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div id="menu1" class="tab-pane fade">
-                                    <div class="card-staff">
-                                        <div class="card-item card-left">
-                                            <div class="d-flex align-items-center">
-                                                <img src="./img/room/avatar/avatar-1.jpg" alt="">
-                                                <p class="name ml-3">Thomas</p>
-                                            </div>
-                                        </div>
-                                        <div class="card-item card-right">
-                                            <button class="btn btn-primary">BOOK</button>
-                                        </div>
-                                    </div>
-                                    <div class="card-staff">
-                                        <div class="card-item card-left">
-                                            <div class="d-flex align-items-center">
-                                                <img src="./img/room/avatar/avatar-2.jpg" alt="">
-                                                <p class="name ml-3">Thomas</p>
-                                            </div>
-                                        </div>
-                                        <div class="card-item card-right">
-                                            <button class="btn btn-primary">BOOK</button>
-                                        </div>
-                                    </div>
-                                    <div class="card-staff">
-                                        <div class="card-item card-left">
-                                            <div class="d-flex align-items-center">
-                                                <img src="./img/room/avatar/avatar-1.jpg" alt="">
-                                                <p class="name ml-3">Thomas</p>
-                                            </div>
-                                        </div>
-                                        <div class="card-item card-right">
-                                            <button class="btn btn-primary">BOOK</button>
-                                        </div>
-                                    </div>
-                                    <div class="card-staff">
-                                        <div class="card-item card-left">
-                                            <div class="d-flex align-items-center">
-                                                <img src="./img/room/avatar/avatar-1.jpg" alt="">
-                                                <p class="name ml-3">Thomas</p>
-                                            </div>
-                                        </div>
-                                        <div class="card-item card-right">
-                                            <button class="btn btn-primary">BOOK</button>
-                                        </div>
-                                    </div>
-                                </div>
-
+                </div>
+                <div class="col-xl-4 col-lg-5 offset-xl-2 offset-lg-1">
+                    <div class="booking-form">
+                        <h3>Booking Your Nail</h3>
+                        <form action="#">
+                            <div class="select-option">
+                                <label for="guest">Choose spa:</label>
+                                <select id="guest">
+                                    <option value="">Relaxxa </option>
+                                    <option value=""> Bliss  </option>
+                                    <option value=""> Body n Mind Spa   </option>
+                                    <option value=""> The Zen Company </option>
+                                    <option value=""> Sparadise  </option>
+                                    <option value=""> Relexology Spa  </option>
+                                </select>
                             </div>
+                            <div class="select-option">
+                                <label for="room">Service:</label>
+                                <select id="room">
+                                    <option value="">Manicure</option>
+                                    <option value="">Hair extension</option>
+                                    <option value="">Hair dying</option>
+                                    <option value="">Massage</option>
+                                    <option value="">Mask</option>
+                                    <option value="">Eyelash extensions</option>
+                                </select>
+                            </div>
+                            <div class="check-date">
+                                <label for="date-in">Date:</label>
+                                <input type="text" class="date-input" id="date-in" />
+                                <i class="icon_calendar"></i>
+                            </div>
+                            <button type="submit">Check Availability</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-slider owl-carousel">
+            <div class="hs-item set-bg" data-setbg="https://jthemes.net/themes/html/spamagic/files/images/slider/slide-1.jpg"></div>
+            <div class="hs-item set-bg" data-setbg="https://jthemes.net/themes/html/spamagic/files/images/image-07.jpg"></div>
+            <div class="hs-item set-bg" data-setbg="https://jthemes.net/themes/html/spamagic/files/images/gallery/img-10.jpg"></div>
+        </div>
+    </section>
+    <!-- Hero Section End -->
 
+    <!-- About Us Section Begin -->
+    <section class="aboutus-section spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="about-text">
+                        <div class="section-title">
+                            <span>About Us</span>
+                            <h2>Intercontinental LA <br />Westlake Hotel</h2>
+                        </div>
+                        <p class="f-para">
+                            Sona.com is a leading online accommodation site. We’re
+                            passionate about travel. Every day, we inspire and reach
+                            millions of travelers across 90 local websites in 41 languages.
+                        </p>
+                        <p class="s-para">
+                            So when it comes to booking the perfect hotel, vacation rental,
+                            resort, apartment, guest house, or tree house, we’ve got you
+                            covered.
+                        </p>
+                        <a href="#" class="primary-btn about-btn">Read More</a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="about-pic">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <img src="img/about/about-1.jpg" alt="" />
+                            </div>
+                            <div class="col-sm-6">
+                                <img src="img/about/about-2.jpg" alt="" />
+                            </div>
                         </div>
                     </div>
                 </div>
-            </form>
+            </div>
         </div>
     </section>
-    <!-- Booking end-->
+    <!-- About Us Section End -->
 
     <!-- Services Section End -->
     <section class="services-section spad">
@@ -422,6 +341,194 @@
         </div>
     </section>
     <!-- Services Section End -->
+
+    <!-- Home Room Section Begin -->
+    <section class="hp-room-section">
+        <div class="container-fluid">
+            <div class="hp-room-items">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="hp-room-item set-bg" data-setbg="https://jthemes.net/themes/html/spamagic/files/images/slider/slide-1.jpg">
+                            <div class="hr-text">
+                                <h3>Double Room</h3>
+                                <h2>199$<span>/Pernight</span></h2>
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <td class="r-o">Size:</td>
+                                            <td>30 ft</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="r-o">Capacity:</td>
+                                            <td>Max persion 5</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="r-o">Bed:</td>
+                                            <td>King Beds</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="r-o">Services:</td>
+                                            <td>Wifi, Television, Bathroom,...</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <a href="#" class="primary-btn">More Details</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="hp-room-item set-bg" data-setbg="https://jthemes.net/themes/html/spamagic/files/images/image-07.jpg">
+                            <div class="hr-text">
+                                <h3>Premium King Room</h3>
+                                <h2>159$<span>/Pernight</span></h2>
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <td class="r-o">Size:</td>
+                                            <td>30 ft</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="r-o">Capacity:</td>
+                                            <td>Max persion 5</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="r-o">Bed:</td>
+                                            <td>King Beds</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="r-o">Services:</td>
+                                            <td>Wifi, Television, Bathroom,...</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <a href="#" class="primary-btn">More Details</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="hp-room-item set-bg" data-setbg="https://jthemes.net/themes/html/spamagic/files/images/gallery/img-10.jpg">
+                            <div class="hr-text">
+                                <h3>Deluxe Room</h3>
+                                <h2>198$<span>/Pernight</span></h2>
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <td class="r-o">Size:</td>
+                                            <td>30 ft</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="r-o">Capacity:</td>
+                                            <td>Max persion 5</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="r-o">Bed:</td>
+                                            <td>King Beds</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="r-o">Services:</td>
+                                            <td>Wifi, Television, Bathroom,...</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <a href="#" class="primary-btn">More Details</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="hp-room-item set-bg" data-setbg="https://jthemes.net/themes/html/spamagic/files/images/slider/slide-1.jpg">
+                            <div class="hr-text">
+                                <h3>Family Room</h3>
+                                <h2>299$<span>/Pernight</span></h2>
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <td class="r-o">Size:</td>
+                                            <td>30 ft</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="r-o">Capacity:</td>
+                                            <td>Max persion 5</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="r-o">Bed:</td>
+                                            <td>King Beds</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="r-o">Services:</td>
+                                            <td>Wifi, Television, Bathroom,...</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <a href="#" class="primary-btn">More Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Home Room Section End -->
+
+    <!-- Testimonial Section Begin -->
+    <section class="testimonial-section spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title">
+                        <span>Testimonials</span>
+                        <h2>What Customers Say?</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2">
+                    <div class="testimonial-slider owl-carousel">
+                        <div class="ts-item">
+                            <p>
+                                After a construction project took longer than expected, my
+                                husband, my daughter and I needed a place to stay for a few
+                                nights. As a Chicago resident, we know a lot about our city,
+                                neighborhood and the types of housing options available and
+                                absolutely love our vacation at Sona Hotel.
+                            </p>
+                            <div class="ti-author">
+                                <div class="rating">
+                                    <i class="icon_star"></i>
+                                    <i class="icon_star"></i>
+                                    <i class="icon_star"></i>
+                                    <i class="icon_star"></i>
+                                    <i class="icon_star-half_alt"></i>
+                                </div>
+                                <h5>- Alexander Vasquez</h5>
+                            </div>
+                            <img src="img/testimonial-logo.png" alt="" />
+                        </div>
+                        <div class="ts-item">
+                            <p>
+                                After a construction project took longer than expected, my
+                                husband, my daughter and I needed a place to stay for a few
+                                nights. As a Chicago resident, we know a lot about our city,
+                                neighborhood and the types of housing options available and
+                                absolutely love our vacation at Sona Hotel.
+                            </p>
+                            <div class="ti-author">
+                                <div class="rating">
+                                    <i class="icon_star"></i>
+                                    <i class="icon_star"></i>
+                                    <i class="icon_star"></i>
+                                    <i class="icon_star"></i>
+                                    <i class="icon_star-half_alt"></i>
+                                </div>
+                                <h5>- Alexander Vasquez</h5>
+                            </div>
+                            <img src="img/testimonial-logo.png" alt="" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Testimonial Section End -->
 
     <!-- Footer Section Begin -->
     <footer class="footer-section">

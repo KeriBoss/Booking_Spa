@@ -672,7 +672,7 @@ ul, ol {
 
 .services-section {
 	padding-bottom: 60px;
-	border-top: 1px solid #e5e5e5;
+	/* border-top: 1px solid #e5e5e5; */
 }
 .services-section .section-title {
 	margin-bottom: 36px;
@@ -2337,11 +2337,15 @@ ul, ol {
 }
 
 /*---------------------Custom----------------------*/
+.booking-nail{
+	position: relative;
+}
 .card-booking{
 	font-size: 17px;
 	max-width: 900px;
     width: 70%;
     margin: 0 auto;
+	backdrop-filter: blur(20px);
 }
 .card-booking ul{
 	justify-content: space-evenly;
@@ -2397,4 +2401,148 @@ ul, ol {
 }
 .card-staff .card-item p{
 	margin: 0;
+}
+
+.icon-thumbnail img{
+	position: absolute;
+	bottom: -15%;
+	right: 10%;
+	z-index: -1;
+}
+
+/*
+Scheducle css
+*/
+.schedule-main{
+	font-size: 17px;
+	max-width: 900px;
+    width: 70%;
+    margin: 0 auto;
+	backdrop-filter: blur(20px);
+}
+.schedule-main .title h5{
+	text-align: center;
+	font-weight: bold;
+}
+.list-card {
+	
+}
+.schedule-card{
+	padding: 20px;
+	box-shadow: 5px 0px 40px 3px #cbc7c7;
+}
+.schedule-card p{
+margin: 0;
+font-size: 1em;
+}
+.schedule-card .name{
+	font-weight: bold;
+}
+.schedule-card .user{
+	color: rgb(53, 97, 229);
+}
+.schedule-card .right{
+	font-size: 1.5em;
+	cursor: pointer;
+}
+span.space{
+	margin: 0 20px;
+}
+.btn-addmore{
+	width: 100%;
+	border: 2px dashed gray;
+	padding: 20px 0;
+	font-size: 1.2em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.btn-addmore:hover{
+	background-color: rgb(196, 196, 196);
+}
+
+.footer-end{
+	width: 100%;
+}
+.footer-end .group-btn{
+	display: flex;
+	align-items: center;
+	gap: 15px;
+}
+.footer-end .group-btn a{
+	flex: 1;
+	width: 100%;
+	background: #0084bc;
+	padding: 10px 0;
+	border-radius: 8px;
+	text-align: center;
+	color: #fff;
+}
+.footer-end .group-btn a.back{
+	background: #ffffff;
+	color: #0084bc;
+}
+.list-hour{
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+.list-hour div{
+	border: 1px solid rgb(196, 196, 196);
+	border-radius: 7px;
+	width: calc(25% - 15px);
+	max-width: calc(25% - 15px);
+	padding: 10px 0;
+	cursor: pointer;
+	transition: all .3s;
+}
+.list-hour div.active{
+	background: #0084bc;
+	color: #fff;
+}
+.list-hour div:hover{
+	background: #0084bc;
+	color: #fff;
+}
+@media screen and (max-width: 768.98px) {
+	.list-hour div{
+		width: calc(50% -15px);
+		max-width: calc(50% - 15px);
+	}
+}
+
+/**/
+.info-content{
+	max-width: 80%;
+	width: 80%;
+	margin: 0 auto;
+	box-shadow: 5px 0px 40px 3px #cbc7c7;
+	padding: 15px 20px;
+}
+.info-content .header .name{
+	font-size: 1.2em;
+}
+.info-content .header .user{
+	color: #0084bc;
+}
+.info-content .footer .d-center{
+	width: 70%;
+	margin: 0 auto;
+	text-align: center;
+}
+.info-content .footer .btn-submit{
+
+	width: 100%;
+	background: #0084bc;
+	padding: 10px 0;
+	border-radius: 8px;
+	text-align: center;
+	color: #fff;
+}
+.success-section{
+	font-size: 18px;
+	text-align: center;
+}
+.success-content a:hover{
+	color: #0084bc;
 }

@@ -32,6 +32,13 @@
 /* Template default CSS
 /*----------------------------------------*/
 
+:root{
+	--bg-main: #0084BC;
+	--bg-text: #E5F7FF;
+	--bg-shadow: #F1F3F5;
+	--btn-add: #868E96;
+}
+
 html, body {
 	height: 100%;
 	font-family: "Cabin", sans-serif;
@@ -95,7 +102,7 @@ ul, ol {
 }
 .section-title span {
 	font-size: 14px;
-	color: #dfa974;
+	color: var(--bg-main);
 	font-weight: 700;
 	text-transform: uppercase;
 	letter-spacing: 2px;
@@ -139,7 +146,7 @@ ul, ol {
 	bottom: -5px;
 	width: 100%;
 	height: 2px;
-	background: #dfa974;
+	background: var(--bg-main);
 	content: "";
 }
 /* Preloder */
@@ -298,7 +305,7 @@ ul, ol {
 	display: none;
 }
 .top-nav .tn-left li i {
-	color: #dfa974;
+	color: var(--bg-main);
 	margin-right: 4px;
 }
 .top-nav .tn-right {
@@ -320,7 +327,7 @@ ul, ol {
 	font-size: 13px;
 	font-weight: 700;
 	padding: 16px 28px 15px;
-	background: #dfa974;
+	background: var(--bg-main);
 	color: #ffffff;
 	text-transform: uppercase;
 	letter-spacing: 2px;
@@ -380,7 +387,7 @@ ul, ol {
 	transition: all 0.3s;
 }
 .top-nav .tn-right .language-option .flag-dropdown ul li a:hover {
-	color: #dfa974;
+	color: var(--bg-main);
 }
 .menu-item {
 	position: relative;
@@ -433,7 +440,7 @@ ul, ol {
 	top: 52px;
 	width: 100%;
 	height: 2px;
-	background: #dfa974;
+	background: var(--bg-main);
 	content: "";
 	opacity: 0;
 	-webkit-transition: all 0.3s;
@@ -470,7 +477,7 @@ ul, ol {
 	transition: all 0.3s;
 }
 .menu-item .nav-menu .mainmenu li .dropdown li a:hover {
-	color: #dfa974;
+	color: var(--bg-main);
 }
 .menu-item .nav-menu .mainmenu li .dropdown li a:after {
 	display: none;
@@ -550,7 +557,7 @@ ul, ol {
 	padding-left: 20px;
 }
 .booking-form form .check-date i {
-	color: #dfa974;
+	color: var(--bg-main);
 	position: absolute;
 	right: 18px;
 	bottom: 17px;
@@ -575,8 +582,8 @@ ul, ol {
 	float: none;
 }
 .booking-form form .select-option .nice-select:after {
-	border-bottom: 2px solid #dfa974;
-	border-right: 2px solid #dfa974;
+	border-bottom: 2px solid var(--bg-main);
+	border-right: 2px solid var(--bg-main);
 	height: 10px;
 	margin-top: 0;
 	right: 20px;
@@ -597,9 +604,9 @@ ul, ol {
 	display: block;
 	font-size: 14px;
 	text-transform: uppercase;
-	border: 1px solid #dfa974;
+	border: 1px solid var(--bg-main);
 	border-radius: 2px;
-	color: #dfa974;
+	color: var(--bg-main);
 	font-weight: 500;
 	background: transparent;
 	width: 100%;
@@ -685,7 +692,7 @@ ul, ol {
 	transition: all 0.3s;
 }
 .service-item:hover {
-	background: #dfa974;
+	background: var(--bg-main);
 }
 .service-item:hover i {
 	color: #ffffff;
@@ -698,7 +705,7 @@ ul, ol {
 }
 .service-item i {
 	display: inline-block;
-	color: #dfa974;
+	color: var(--bg-main);
 	-webkit-transition: all 0.3s;
 	-o-transition: all 0.3s;
 	transition: all 0.3s;
@@ -753,7 +760,7 @@ ul, ol {
 	margin-bottom: 15px;
 }
 .hp-room-items .hp-room-item .hr-text h2 {
-	color: #dfa974;
+	color: var(--bg-main);
 	font-weight: 700;
 	margin-bottom: 50px;
 	-webkit-transition: all 0.2s;
@@ -895,15 +902,15 @@ ul, ol {
 	margin-right: 7px;
 }
 .footer-section .footer-text .ft-about .fa-social a:hover {
-	background: #dfa974;
-	border-color: #dfa974;
+	background: var(--bg-main);
+	border-color: var(--bg-main);
 }
 .footer-section .footer-text .ft-contact {
 	margin-bottom: 30px;
 }
 .footer-section .footer-text .ft-contact h6 {
 	font-size: 14px;
-	color: #dfa974;
+	color: var(--bg-main);
 	text-transform: uppercase;
 	font-weight: 700;
 	letter-spacing: 3px;
@@ -918,7 +925,7 @@ ul, ol {
 }
 .footer-section .footer-text .ft-newslatter h6 {
 	font-size: 14px;
-	color: #dfa974;
+	color: var(--bg-main);
 	text-transform: uppercase;
 	font-weight: 700;
 	letter-spacing: 3px;
@@ -947,7 +954,7 @@ ul, ol {
 	right: 0;
 	top: 0;
 	font-size: 16px;
-	background: #dfa974;
+	background: var(--bg-main);
 	color: #ffffff;
 	padding: 0 16px;
 	height: 50px;
@@ -1046,7 +1053,7 @@ ul, ol {
 	line-height: 42px;
 }
 .about-page-text .ap-services li i {
-	color: #dfa974;
+	color: var(--bg-main);
 	margin-right: 5px;
 }
 .about-page-services .ap-service-item {
@@ -1175,7 +1182,7 @@ ul, ol {
 	margin-bottom: 17px;
 }
 .room-item .ri-text h3 {
-	color: #dfa974;
+	color: var(--bg-main);
 	font-weight: 700;
 	margin-bottom: 14px;
 }
@@ -1219,7 +1226,7 @@ ul, ol {
 	margin-right: 0;
 }
 .room-pagination a:hover {
-	background: #dfa974;
+	background: var(--bg-main);
 	color: #ffffff;
 }
 /*-----------------------
@@ -1262,11 +1269,11 @@ ul, ol {
 	font-size: 13px;
 	text-transform: uppercase;
 	font-weight: 700;
-	background: #dfa974;
+	background: var(--bg-main);
 	padding: 14px 28px 13px;
 }
 .room-details-item .rd-text h2 {
-	color: #dfa974;
+	color: var(--bg-main);
 	font-weight: 700;
 	margin-bottom: 25px;
 }
@@ -1332,7 +1339,7 @@ ul, ol {
 }
 .rd-reviews .review-item .ri-text span {
 	font-size: 12px;
-	color: #dfa974;
+	color: var(--bg-main);
 	text-transform: uppercase;
 	letter-spacing: 3px;
 }
@@ -1429,7 +1436,7 @@ ul, ol {
 	text-transform: uppercase;
 	color: #ffffff;
 	letter-spacing: 2px;
-	background: #dfa974;
+	background: var(--bg-main);
 	border: none;
 	padding: 14px 34px 13px;
 	display: inline-block;
@@ -1463,7 +1470,7 @@ ul, ol {
 	padding-left: 20px;
 }
 .room-booking form .check-date i {
-	color: #dfa974;
+	color: var(--bg-main);
 	position: absolute;
 	right: 18px;
 	bottom: 17px;
@@ -1488,8 +1495,8 @@ ul, ol {
 	float: none;
 }
 .room-booking form .select-option .nice-select:after {
-	border-bottom: 2px solid #dfa974;
-	border-right: 2px solid #dfa974;
+	border-bottom: 2px solid var(--bg-main);
+	border-right: 2px solid var(--bg-main);
 	height: 10px;
 	margin-top: 0;
 	right: 20px;
@@ -1510,9 +1517,9 @@ ul, ol {
 	display: block;
 	font-size: 14px;
 	text-transform: uppercase;
-	border: 1px solid #dfa974;
+	border: 1px solid var(--bg-main);
 	border-radius: 2px;
-	color: #dfa974;
+	color: var(--bg-main);
 	font-weight: 500;
 	background: transparent;
 	width: 100%;
@@ -1550,7 +1557,7 @@ ul, ol {
 	font-size: 12px;
 	text-transform: uppercase;
 	letter-spacing: 1px;
-	background: #dfa974;
+	background: var(--bg-main);
 	padding: 3px 10px;
 	border-radius: 2px;
 }
@@ -1588,7 +1595,7 @@ ul, ol {
 .bd-hero-text span {
 	font-size: 12px;
 	color: #ffffff;
-	background: #dfa974;
+	background: var(--bg-main);
 	font-weight: 500;
 	text-transform: uppercase;
 	letter-spacing: 1px;
@@ -1606,7 +1613,7 @@ ul, ol {
 .bd-hero-text ul li {
 	list-style: none;
 	font-size: 14px;
-	color: #dfa974;
+	color: var(--bg-main);
 	margin-right: 35px;
 	display: inline-block;
 }
@@ -1687,7 +1694,7 @@ ul, ol {
 }
 .blog-details-text .tag-share .tags a:hover {
 	color: #ffffff;
-	background: #dfa974;
+	background: var(--bg-main);
 }
 .blog-details-text .tag-share .social-share {
 	float: right;
@@ -1756,7 +1763,7 @@ ul, ol {
 }
 .blog-details-text .comment-option .single-comment-item .sc-text span {
 	font-size: 12px;
-	color: #dfa974;
+	color: var(--bg-main);
 	text-transform: uppercase;
 	letter-spacing: 2px;
 }
@@ -1786,9 +1793,9 @@ ul, ol {
 	margin-right: 10px;
 }
 .blog-details-text .comment-option .single-comment-item .sc-text a:hover {
-	background: #dfa974;
+	background: var(--bg-main);
 	color: #ffffff;
-	border-color: #dfa974;
+	border-color: var(--bg-main);
 }
 .blog-details-text .leave-comment h4 {
 	color: #19191a;
@@ -1808,7 +1815,7 @@ ul, ol {
 	transition: all 0.3s;
 }
 .blog-details-text .leave-comment .comment-form input:focus {
-	border-color: #dfa974;
+	border-color: var(--bg-main);
 }
 .blog-details-text .leave-comment .comment-form textarea {
 	width: 100%;
@@ -1826,7 +1833,7 @@ ul, ol {
 	padding-top: 12px;
 }
 .blog-details-text .leave-comment .comment-form textarea:focus {
-	border-color: #dfa974;
+	border-color: var(--bg-main);
 }
 .blog-details-text .leave-comment .comment-form button {
 	font-size: 13px;
@@ -1834,7 +1841,7 @@ ul, ol {
 	text-transform: uppercase;
 	color: #ffffff;
 	letter-spacing: 2px;
-	background: #dfa974;
+	background: var(--bg-main);
 	border: none;
 	padding: 14px 42px 13px;
 	display: inline-block;
@@ -1936,7 +1943,7 @@ ul, ol {
 	text-transform: uppercase;
 	color: #ffffff;
 	letter-spacing: 2px;
-	background: #dfa974;
+	background: var(--bg-main);
 	border: none;
 	padding: 14px 34px 13px;
 	display: inline-block;
@@ -2117,14 +2124,14 @@ ul, ol {
 		transition: all 0.3s;
 	}
 	.offcanvas-menu-wrapper .header-configure-area .language-option .flag-dropdown ul li a:hover {
-		color: #dfa974;
+		color: var(--bg-main);
 	}
 	.offcanvas-menu-wrapper .header-configure-area .bk-btn {
 		display: inline-block;
 		font-size: 13px;
 		font-weight: 700;
 		padding: 16px 28px 15px;
-		background: #dfa974;
+		background: var(--bg-main);
 		color: #ffffff;
 		text-transform: uppercase;
 		letter-spacing: 2px;
@@ -2165,7 +2172,7 @@ ul, ol {
 	.offcanvas-menu-wrapper .slicknav_menu .slicknav_nav ul li a:hover {
 		border-radius: 0;
 		background: transparent;
-		color: #dfa974;
+		color: var(--bg-main);
 	}
 	.offcanvas-menu-wrapper .slicknav_menu .slicknav_nav .slicknav_row a {
 		border-bottom: 0;
@@ -2181,10 +2188,10 @@ ul, ol {
 		transition: all 0.3s;
 	}
 	.offcanvas-menu-wrapper .slicknav_menu .slicknav_nav .slicknav_row:hover a {
-		color: #dfa974;
+		color: var(--bg-main);
 	}
 	.offcanvas-menu-wrapper .slicknav_menu .slicknav_nav .slicknav_row:hover span {
-		color: #dfa974;
+		color: var(--bg-main);
 	}
 	.offcanvas-menu-wrapper .top-social {
 		display: inline-block;
@@ -2208,7 +2215,7 @@ ul, ol {
 		line-height: 28px;
 	}
 	.offcanvas-menu-wrapper .top-widget li i {
-		color: #dfa974;
+		color: var(--bg-main);
 		margin-right: 4px;
 	}
 	.offcanvas-menu-wrapper.show-offcanvas-menu-wrapper {
@@ -2360,7 +2367,7 @@ ul, ol {
 	padding: 10px 25px;
 }
 .card-booking ul li a.active{
-	background: #dfa974;
+	background: var(--bg-main);
 	color: #ffffff;
 	transition: all .3s;
 	border-radius: 7px;
@@ -2373,7 +2380,7 @@ ul, ol {
 .filter-service .collapse-item {
 	border: 1px solid #ced4da;
 	border-bottom: none;
-	padding: 10px;
+	padding: 16px;
 }
 .filter-service .collapse-item:last-child{
 	border-bottom: 1px solid #ced4da;
@@ -2397,7 +2404,7 @@ ul, ol {
 	align-items: center;
 	justify-content: space-between;
 	padding: 15px;
-	box-shadow: 0 0 40px 5px #e7e9eb;
+	box-shadow: 0px 2px 4px -2px rgba(24, 39, 75, 0.12), 0px 4px 4px -2px rgba(24, 39, 75, 0.08);
 }
 .card-staff .card-item p{
 	margin: 0;
@@ -2413,23 +2420,22 @@ ul, ol {
 /*
 Scheducle css
 */
-.schedule-main{
+.schedule-main,
+.pickup-main{
 	font-size: 17px;
 	max-width: 900px;
     width: 70%;
     margin: 0 auto;
 	backdrop-filter: blur(20px);
 }
-.schedule-main .title h5{
+.schedule-main .title h5,
+.pickup-main .title h5{
 	text-align: center;
 	font-weight: bold;
 }
-.list-card {
-	
-}
 .schedule-card{
 	padding: 20px;
-	box-shadow: 5px 0px 40px 3px #cbc7c7;
+	box-shadow: 0px 2px 4px -2px rgba(24, 39, 75, 0.12), 0px 4px 4px -2px rgba(24, 39, 75, 0.08);
 }
 .schedule-card p{
 margin: 0;
@@ -2516,7 +2522,7 @@ span.space{
 	max-width: 80%;
 	width: 80%;
 	margin: 0 auto;
-	box-shadow: 5px 0px 40px 3px #cbc7c7;
+	box-shadow: 0px 2px 14px -2px rgba(24, 39, 75, 0.12), 0px 4px 4px -2px rgba(24, 39, 75, 0.08);
 	padding: 15px 20px;
 }
 .info-content .header .name{
@@ -2545,4 +2551,14 @@ span.space{
 }
 .success-content a:hover{
 	color: #0084bc;
+}
+
+.booking-main.unshow{
+	display: none;
+}
+.schedule-main{
+	display: none;
+}
+.schedule-main.active{
+	display: block;
 }

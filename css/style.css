@@ -2556,7 +2556,7 @@ span.space{
 .schedule-main.active{
 	display: block;
 }
-
+/*Reponsive in tablet and mobile*/
 @media screen and (max-width: 768.98px) {
 	.list-hour div{
 		width: calc(50% -15px);
@@ -2573,5 +2573,11 @@ span.space{
 	.info-content{
 		width: 100%;
 		max-width: 100%;
+	}
+	.hero-text{
+		padding-top: 0;
+	}
+	.spad{
+		padding-bottom: 0;
 	}
 }

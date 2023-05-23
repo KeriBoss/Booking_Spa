@@ -2510,12 +2510,6 @@ span.space{
 	background: #0084bc;
 	color: #fff;
 }
-@media screen and (max-width: 768.98px) {
-	.list-hour div{
-		width: calc(50% -15px);
-		max-width: calc(50% - 15px);
-	}
-}
 
 /**/
 .info-content{
@@ -2561,4 +2555,23 @@ span.space{
 }
 .schedule-main.active{
 	display: block;
+}
+
+@media screen and (max-width: 768.98px) {
+	.list-hour div{
+		width: calc(50% -15px);
+		max-width: calc(50% - 15px);
+	}
+	.card-booking{
+		width: 100%;
+		max-width: 100%;
+	}
+	.schedule-main, .pickup-main{
+		width: 100%;
+		max-width: 100%;
+	}
+	.info-content{
+		width: 100%;
+		max-width: 100%;
+	}
 }
